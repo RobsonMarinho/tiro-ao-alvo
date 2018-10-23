@@ -2,4 +2,10 @@
 
 <script>
 
+	var tela = document.querySelector('canvas'); //Escolhe a tela 
+	var pincel = tela.getContext('2d');	//Pede um pincel para pintar em 2d
+
+	pincel.fillStyle = 'lightgrey'; //Escolhe a cor da tela  
+	pincel.fillRect(0, 0, 600, 400);	//Preenche o retangulo na coordenada X, Y, largura, altura
+
 </script>
